@@ -1,1 +1,2 @@
-wget $(youtube-dl --get-url https://www.youtube.com/watch\?v\=dQw4w9WgXcQ) -O - |mplayer -novideo -cache 8192 -
+#!/bin/bash
+youtube-dl https://www.youtube.com/watch\?v=dQw4w9WgXcQ -o - | mplayer -novideo -cache 8192 -
